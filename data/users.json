@@ -1,0 +1,22 @@
+{
+  "admin": {
+    "username": "admin",
+    "role": "admin",
+    "email": "admin@localhost",
+    "permissions": [
+      "manage_users",
+      "scan_pii",
+      "configure_system",
+      "scan_credentials",
+      "configure_models",
+      "export_data",
+      "view_audit_log",
+      "delete_attacks",
+      "create_attacks",
+      "run_attacks",
+      "query_models",
+      "view_results",
+      "delete_data"
+    ]
+  }
+}

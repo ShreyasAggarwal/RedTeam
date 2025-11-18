@@ -1,0 +1,22 @@
+[
+  {
+    "attack_id": "test-001",
+    "prompt": "Test prompt",
+    "response": "Test response",
+    "vulnerable": true,
+    "severity_score": 0.85,
+    "tags": [
+      "test"
+    ]
+  },
+  {
+    "attack_id": "test-002",
+    "prompt": "Another test",
+    "response": "Another response",
+    "vulnerable": false,
+    "severity_score": 0.2,
+    "tags": [
+      "test"
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "admin": {
+    "username": "admin",
+    "role": "admin",
+    "email": "admin@localhost",
+    "permissions": [
+      "export_data",
+      "scan_pii",
+      "query_models",
+      "view_audit_log",
+      "create_attacks",
+      "scan_credentials",
+      "configure_system",
+      "delete_data",
+      "view_results",
+      "manage_users",
+      "run_attacks",
+      "configure_models",
+      "delete_attacks"
+    ]
+  },
+  "analyst": {
+    "username": "analyst",
+    "role": "analyst",
+    "email": "analyst@example.com",
+    "permissions": [
+      "export_data",
+      "view_audit_log",
+      "scan_credentials",
+      "scan_pii",
+      "view_results"
+    ]
+  },
+  "operator": {
+    "username": "operator",
+    "role": "operator",
+    "email": "operator@example.com",
+    "permissions": [
+      "export_data",
+      "query_models",
+      "create_attacks",
+      "scan_credentials",
+      "scan_pii",
+      "view_results",
+      "run_attacks"
+    ]
+  }
+}
